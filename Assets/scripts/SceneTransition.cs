@@ -7,7 +7,7 @@ public class SceneTransition : MonoBehaviour
 {
     public void Transition() 
     {
-        SceneManager.LoadScene(1); 
+        SceneManager.LoadScene("choose_car"); 
     }
         
 }
